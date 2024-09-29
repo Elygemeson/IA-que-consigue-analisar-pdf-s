@@ -1,6 +1,6 @@
 import pdfplumber
 import google.generativeai as genai
-from pymongo import MongoClient
+from pymongo import MongoClient                                              #Blibliotecas desejadas
 from fastapi import FastAPI, File, UploadFile, Form
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
